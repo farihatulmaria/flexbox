@@ -1,0 +1,94 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  padding: 11px 70px;
+}
+.logo {
+}
+.logo h3 {
+  font-size: 29px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #000;
+  margin-top: 10px;
+  border-radius: 13px;
+  padding: 0 12px;
+}
+.main-meun {
+}
+.main-meun ul {
+}
+.main-meun ul li {
+  padding: 6px 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-meun ul li a {
+  color: #fff;
+  position: relative;
+}
+.main-meun ul li a::after {
+  position: absolute;
+  bottom: -7px;
+  left: -3px;
+  background: #fff;
+  color: #fff;
+  width: 0%;
+  height: 3px;
+  transition: 0.5s;
+  content: "";
+}
+.main-meun ul li a:hover::after {
+  width: 112%;
+}
+.sign-in-btn {
+  color: #000 !important;
+  background: #fff;
+  padding: 6px 24px;
+  border-radius: 23px;
+  font-weight: 600;
+}
+.sign-in-btn::after {
+  background: transparent !important;
+}
+.active {
+}
+.homepage-slider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 8%;
+}
+.homepage-txt h1 {
+  margin: 10px 0;
+  font-size: 50px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.homepage-txt h1 {
+}
+.homepage-txt h3 {
+}
+.homepage-txt p {
+  line-height: 1.4;
+  margin: 18px 0;
+  padding: 0 31px;
+  padding-left: 0;
+}
+.homepage-btn {
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  padding: 6px 26px;
+  border-radius: 23px;
+  margin: 14px 0;
+  font-weight: 600;
+}
+.homepage-img {
+}
+.homepage-img img {
+}
